@@ -1,0 +1,28 @@
+{
+  "name": "mastermind",
+  "description": "The old Master Mind game",
+  "version": "0.0.0",
+  "homepage": "http://github.com/Eyal-Shalev/mastermind",
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "~0.11.1"
+  },
+  "authors": [
+    "Eyal Shalev <eyalsh@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "mastermind",
+    "game",
+    "angular",
+    "example"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ]
+}

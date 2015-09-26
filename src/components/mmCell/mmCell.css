@@ -1,0 +1,7 @@
+.cell {}
+.cell .option-pallet {
+  display: none;
+}
+.cell.selected .option-pallet {
+  display: block;
+}

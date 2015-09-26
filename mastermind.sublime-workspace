@@ -1,0 +1,649 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sele",
+				"select"
+			],
+			[
+				"l",
+				"label"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ans",
+				"answer"
+			],
+			[
+				"is",
+				"isValid"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"op",
+				"valueOptions"
+			],
+			[
+				"JSON",
+				"JSONCopy"
+			],
+			[
+				"value",
+				"valueOptions"
+			],
+			[
+				"row",
+				"rowSize"
+			],
+			[
+				"defa",
+				"defaultSettings"
+			],
+			[
+				"ng-c",
+				"ng-click	AngularJS"
+			],
+			[
+				"master",
+				"mastermind"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"option",
+				"option"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"ngM",
+				"ngModelCtrl"
+			],
+			[
+				"nul",
+				"nullValue"
+			],
+			[
+				"ng-ch",
+				"ng-change	AngularJS"
+			],
+			[
+				"ng-d",
+				"ng-disabled	AngularJS"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"ng-op",
+				"ng-options	AngularJS"
+			],
+			[
+				"de",
+				"defaultOptions"
+			],
+			[
+				"proto",
+				"protoExtend"
+			],
+			[
+				"nu",
+				"numberOfOptions"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bs3-select",
+				"bs3-select:h	bs3-select-h"
+			],
+			[
+				"bs3-navbar",
+				"bs3-navbar:basic	bs3-navbar-basic"
+			],
+			[
+				"bs3nav",
+				"bs3-navbar:basic	bs3-navbar-basic"
+			],
+			[
+				"board",
+				"boardSize"
+			],
+			[
+				"bo",
+				"boardSize"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"ng-ke",
+				"ng-keyup	AngularJS"
+			],
+			[
+				"ng-bind",
+				"ng-bind-template	AngularJS"
+			],
+			[
+				"ng-v",
+				"ng-value	AngularJS"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"o",
+				"on"
+			],
+			[
+				"$loca",
+				"$location	AngularJS"
+			],
+			[
+				"ng-mo",
+				"ng-mouseenter	AngularJS"
+			],
+			[
+				"ng-m",
+				"ng-mouseenter	AngularJS"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"image",
+				"imageUrl"
+			],
+			[
+				"mo",
+				"module	AngularJS"
+			],
+			[
+				"s",
+				"success"
+			],
+			[
+				"phone",
+				"phoneId"
+			],
+			[
+				"$rout",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/game/game.js",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/game/game.html",
+			"settings":
+			{
+				"buffer_size": 869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/engine/engine.js",
+			"settings":
+			{
+				"buffer_size": 3810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/mmCell/mmCell.js",
+			"settings":
+			{
+				"buffer_size": 1684,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/mmCell/mmCell.html",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/mmPallet/mmPallet.html",
+			"settings":
+			{
+				"buffer_size": 195,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/eyalsh/Sites/mastermind/app/app.css",
+		"/Users/eyalsh/Sites/mastermind/app/game/game.html",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmCell/mmCell.html",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmCell/mmCell.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmPallet/mmPallet.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmPallet/mmPallet.html",
+		"/Users/eyalsh/Sites/mastermind/app/index.html",
+		"/Users/eyalsh/Sites/mastermind/app/app.js",
+		"/Users/eyalsh/Sites/mastermind/app/game/game.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/engine/engine.js",
+		"/Users/eyalsh/Sites/mastermind/app/bower_components/angular-material/README.md",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmPallet/mmPallet.css",
+		"/Users/eyalsh/Sites/mastermind/app/bower_components/bootstrap/dist/css/bootstrap-theme.css.map",
+		"/Users/eyalsh/Sites/mastermind/app/components/mmCell/mmCell.css",
+		"/Users/eyalsh/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/eyalsh/Sites/mastermind/app/bower_components/bootstrap/dist/css/bootstrap-theme.css",
+		"/Users/eyalsh/Sites/mastermind/app/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/Users/eyalsh/Sites/mastermind/app/bower_components/bootstrap/README.md",
+		"/Users/eyalsh/Sites/mastermind/app/components/mastermind/mastermind.js",
+		"/Users/eyalsh/Sites/mastermind/app/view1/view1.js",
+		"/Users/eyalsh/Sites/mastermind/app/view2/view2.js",
+		"/Users/eyalsh/Sites/mastermind/app/game/active/active.html",
+		"/Users/eyalsh/Sites/mastermind/app/game/active/active.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/meta/meta.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/interpolate-filter.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/interpolate-filter_test.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/version-directive.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/version-directive_test.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/version.js",
+		"/Users/eyalsh/Sites/mastermind/app/components/version/version_test.js",
+		"/Users/eyalsh/Sites/mastermind/app/index-async.html",
+		"/Users/eyalsh/Sites/mastermind/app/view1/view1_test.js",
+		"/Users/eyalsh/Sites/mastermind/app/view2/view2_test.js",
+		"/Users/eyalsh/Sites/mastermind/app/game/active/active_test.js",
+		"/Users/eyalsh/Sites/mastermind/mastermind.sublime-project",
+		"/Users/eyalsh/Sites/mastermind/app/view2/view2.html",
+		"/Users/Guest/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Guest/Sites/ng mastermind/app/app.js",
+		"/Users/Guest/Sites/ng mastermind/Preferences.sublime-settings",
+		"/Users/Guest/Sites/ng mastermind/mastermind.sublime-project",
+		"/Users/Guest/Sites/ng mastermind/app/app.css",
+		"/Users/Guest/Sites/app/js/app.js",
+		"/Users/Guest/Sites/app/js/controllers.js",
+		"/Users/Guest/Sites/app/js/services.js",
+		"/Users/Guest/Sites/app/js/animations.js",
+		"/Users/Guest/Sites/app/partials/phone-detail.html",
+		"/Users/Guest/Sites/app/partials/phone-list.html",
+		"/Users/Guest/Sites/app/css/animations.css",
+		"/Users/Guest/Sites/app/index.html",
+		"/Users/Guest/Sites/app/css/phones.css",
+		"/Users/Guest/Sites/app/animations.js",
+		"/Users/Guest/Sites/app/js/filters.js",
+		"/Users/Guest/Desktop/javascript.snippet",
+		"/Users/Guest/Sites/app/phones/phones.json",
+		"/Users/Guest/Sites/app/app.sublime-project",
+		"/Users/Guest/Desktop/app/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/eyalsh/Sites/mastermind/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cell.selected",
+			"boardSize",
+			"defaultOptions",
+			"title",
+			"toggle",
+			"masterMind",
+			"animateUp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mastermind"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/game/game.js",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/game/game.html",
+					"settings":
+					{
+						"buffer_size": 869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/components/engine/engine.js",
+					"settings":
+					{
+						"buffer_size": 3810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/components/mmCell/mmCell.js",
+					"settings":
+					{
+						"buffer_size": 1684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/components/mmCell/mmCell.html",
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/components/mmPallet/mmPallet.html",
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true
+}
