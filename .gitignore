@@ -1,5 +1,7 @@
 /node_modules
+/_mastermind
 /dist
+/build
 /.tmp
 /.sass-cache
 /bower_components

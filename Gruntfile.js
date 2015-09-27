@@ -9,7 +9,7 @@
 
 module.exports = function (grunt) {
 
-  // Time how long tasks take. Can help when optimizing build times
+  // Time how long tasks take. Can help when optimizing compile times
   require('time-grunt')(grunt);
 
   // Automatically load required Grunt tasks
@@ -22,6 +22,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
+    build: 'build',
     dist: 'dist'
   };
 
@@ -110,6 +111,12 @@ module.exports = function (grunt) {
           }
         }
       },
+      build: {
+        options: {
+          open: true,
+          base: '<%= yeoman.build %>'
+        }
+      },
       dist: {
         options: {
           open: true,
@@ -140,6 +147,16 @@ module.exports = function (grunt) {
 
     // Empties folders to start fresh
     clean: {
+      build: {
+        files: [{
+          dot: true,
+          src: [
+            '.tmp',
+            '<%= yeoman.build %>/{,*/}*',
+            '!<%= yeoman.build %>/.git{,*/}*'
+          ]
+        }]
+      },
       dist: {
         files: [{
           dot: true,
@@ -169,6 +186,14 @@ module.exports = function (grunt) {
           dest: '.tmp/styles/'
         }]
       },
+      build: {
+        files: [{
+          expand: true,
+          cwd: '.tmp/styles/',
+          src: '{,*/}*.css',
+          dest: '.tmp/styles/'
+        }]
+      },
       dist: {
         files: [{
           expand: true,
@@ -186,7 +211,7 @@ module.exports = function (grunt) {
         ignorePath:  /\.\.\//
       },
       test: {
-        devDependencies: true,
+        buildDependencies: true,
         src: '<%= karma.unit.configFile %>',
         ignorePath:  /\.\.\//,
         fileTypes:{
@@ -211,8 +236,6 @@ module.exports = function (grunt) {
     compass: {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
-        cssDir: '.tmp/styles',
-        generatedImagesDir: '.tmp/images/generated',
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/scripts',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
@@ -223,6 +246,12 @@ module.exports = function (grunt) {
         relativeAssets: false,
         assetCacheBuster: false,
         raw: 'Sass::Script::Number.precision = 10\n'
+      },
+      build: {
+        options: {
+          generatedImagesDir: '<%= yeoman.build %>/images/generated',
+          cssDir: '<%= yeoman.build %>/styles'
+        }
       },
       dist: {
         options: {
@@ -238,6 +267,14 @@ module.exports = function (grunt) {
 
     // Renames files for browser caching purposes
     filerev: {
+      build: {
+        src: [
+          '<%= yeoman.build %>/scripts/{,*/}*.js',
+          '<%= yeoman.build %>/styles/{,*/}*.css',
+          '<%= yeoman.build %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+          '<%= yeoman.build %>/styles/fonts/*'
+        ]
+      },
       dist: {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
@@ -248,7 +285,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // Reads HTML for usemin blocks to enable smart builds that automatically
+    // Reads HTML for usemin blocks to enable smart compiles that automatically
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
@@ -350,6 +387,14 @@ module.exports = function (grunt) {
     },
 
     ngtemplates: {
+      build: {
+        options: {
+          module: 'mastermindApp'
+        },
+        cwd: '<%= yeoman.app %>',
+        src: 'views/{,*/}*.html',
+        dest: '.tmp/templateCache.js'
+      },
       dist: {
         options: {
           module: 'mastermindApp',
@@ -384,6 +429,31 @@ module.exports = function (grunt) {
 
     // Copies remaining files to places other tasks can use
     copy: {
+      build: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          dest: '<%= yeoman.build %>',
+          src: [
+            '*.{ico,png,txt}',
+            '.htaccess',
+            '*.html',
+            'images/{,*/}*.{webp}',
+            'styles/fonts/{,*/}*.*'
+          ]
+        }, {
+          expand: true,
+          cwd: '.tmp/images',
+          dest: '<%= yeoman.build %>/images',
+          src: ['generated/*']
+        }, {
+          expand: true,
+          cwd: '.',
+          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+          dest: '<%= yeoman.build %>'
+        }]
+      },
       dist: {
         files: [{
           expand: true,
@@ -417,13 +487,16 @@ module.exports = function (grunt) {
       }
     },
 
-    // Run some tasks in parallel to speed up the build process
+    // Run some tasks in parallel to speed up the compile process
     concurrent: {
       server: [
         'compass:server'
       ],
       test: [
         'compass'
+      ],
+      build: [
+        'compass:build'
       ],
       dist: [
         'compass:dist',
@@ -444,7 +517,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
-      return grunt.task.run(['build', 'connect:dist:keepalive']);
+      return grunt.task.run(['compile', 'connect:dist:keepalive']);
     }
 
     grunt.task.run([
@@ -472,6 +545,16 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
+    'clean:build',
+    'wiredep',
+    'concurrent:build',
+    'autoprefixer',
+    'ngtemplates',
+    'copy:build',
+    'filerev'
+  ]);
+
+  grunt.registerTask('compile', [
     'clean:dist',
     'wiredep',
     'useminPrepare',
