@@ -14,7 +14,11 @@
         // scope: {}, // {} = isolate, true = child, false/undefined = no change
         controller: function ($scope, $element, $attrs, $transclude) {
           $scope.openPallet = function(cell) {
-            if (selectedCell) {
+            if (selectedCell === cell) {
+              $scope.closePallet(selectedCell.value);
+              return;
+            }
+            else if (selectedCell) {
               $scope.closePallet(selectedCell.value);
             }
             selectedCell = cell;
