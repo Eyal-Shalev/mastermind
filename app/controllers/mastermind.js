@@ -23,16 +23,6 @@
           color: 'null'
         }
       });
-      game.turn.set([game.settings.valueOptions[0], game.settings.valueOptions[2], game.settings.valueOptions[1], game.settings.valueOptions[3]]);
-      game.guess();
-      game.turn.set([game.settings.valueOptions[0], game.settings.valueOptions[2], game.settings.valueOptions[1], game.settings.valueOptions[3]]);
-      game.guess();
-      game.turn.set([game.settings.valueOptions[0], game.settings.valueOptions[2], game.settings.valueOptions[1], game.settings.valueOptions[3]]);
-      game.guess();
-      game.turn.set([game.settings.valueOptions[0], game.settings.valueOptions[2], game.settings.valueOptions[1], game.settings.valueOptions[3]]);
-      game.guess();
-      game.turn.set([game.settings.valueOptions[4], game.settings.valueOptions[7], game.settings.valueOptions[5], game.settings.valueOptions[6]]);
-      game.guess();
 
       $scope.game =game;
 
