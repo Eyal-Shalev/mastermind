@@ -1,0 +1,27 @@
+@import "abstracts/_";
+
+@each $name, $color in $options {
+  .cell-color-#{$name} {
+    background-color: $color;
+  }
+  .option-color-#{$name} {
+    border-color: $color;
+  }
+}
+
+.cell-color-select {
+  border: solid 1px color(border);
+  background-color: color(background);
+}
+
+.cell[disabled] {
+  cursor: not-allowed;
+}
+
+.play[disabled] {
+  color: color(background);
+  cursor: not-allowed;
+}
+
+.turn[disabled] {
+}

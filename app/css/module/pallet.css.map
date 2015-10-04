@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;AAAA,OAAQ,GACN,qBAAqB,EAAE,GAAG,EAC1B,kBAAkB,EAAE,GAAG,EACvB,aAAa,EAAE,GAAG;;;ACDpB,OAAQ,GACN,gBAAgB,ECwBhB,KAAK;;;ADrBP,OAAQ,GACN,gBAAgB,ECoBhB,KAAK,EDlBL,YAAY,EAAE,KAAK,EACnB,YAAY,EAAE,OAA2B,EACzC,MAAM,EAAE,OAAO",
+"sources": ["../../sass/abstracts/_extendables.scss","../../sass/module/pallet.scss","../../sass/abstracts/_variables.scss"],
+"names": [],
+"file": "pallet.css"
+}

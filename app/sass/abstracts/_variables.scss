@@ -1,0 +1,42 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+
+$layout: (
+  perspective: 360,
+  outer-horizontal: 21,
+  inner-horizontal: 14,
+  outer-vertical: 42,
+  inner-vertical: 19,
+  cell: 48,
+  large-circle-border: 3.294,
+  large-circle-size: 41.5,
+  small-circle-border: 1.619,
+  small-circle-size: 16
+);
+
+$colors: (
+  white: text border,
+  black: background,
+  #ffde17: result-partial,
+  #ed1c24: result-hit
+);
+
+$options: (
+  "yellow": #ffde17,
+  "red": #ed1c24,
+  "green": #00a651,
+  "blue": #00aeef,
+  "orange": #f7941e,
+  "purple": #92278f,
+  "indigo": #2e3192,
+  "pink": #ff6da2
+);

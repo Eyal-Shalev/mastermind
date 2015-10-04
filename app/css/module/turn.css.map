@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;AAEA,KAAM,GACJ,MAAM,EAAE,oBAAoB,EAC5B,MAAM,EAAE,OAAO;;;AAGjB,KAAM,GACJ,MAAM,EAAE,mBAA+C,EACvD,UAAU,ECkBV,KAAK,EDjBL,KAAK,ECgBL,KAAK,EDfL,MAAM,EAAE,OAAO",
+"sources": ["../../sass/module/turn.scss","../../sass/abstracts/_variables.scss"],
+"names": [],
+"file": "turn.css"
+}

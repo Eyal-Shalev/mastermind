@@ -1,0 +1,7 @@
+<mm-turn ng-model="game.turn"></mm-turn>
+
+<div class="history">
+  <mm-turn ng-repeat="turn in game.history | orderBy: '-age'" ng-model="turn" aria-disabled="true" disabled></mm-turn>
+</div>
+
+<mm-pallet ng-model="game.settings.valueOptions" ></mm-pallet>

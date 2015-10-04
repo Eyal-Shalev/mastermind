@@ -1,0 +1,13 @@
+@import "abstracts/_";
+
+.cell {
+  border: none transparent 0px;
+  cursor: pointer;
+}
+
+.play {
+  border: color(border) solid l-size(large-circle-border);
+  background: color(background);
+  color: color(text);
+  cursor: pointer;
+}

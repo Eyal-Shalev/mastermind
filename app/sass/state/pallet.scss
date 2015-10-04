@@ -1,0 +1,19 @@
+@import "abstracts/_";
+
+@each $name, $color in $options {
+  .option-color-#{$name} {
+    border-color: $color;
+  }
+  .option[disabled] {
+    border-color: color(border);
+    cursor: not-allowed;
+  }
+}
+
+.pallet {
+  display: none;
+}
+
+.pallet-is-visible {
+  display: block;
+}

@@ -1,0 +1,13 @@
+@import "abstracts/_";
+
+.results {
+  position: relative;
+}
+
+.result {
+  width: l-size(small-circle-size);
+  height: l-size(small-circle-size);
+  @extend %circle;
+  border: l-size(small-circle-border) solid;
+  display: block;
+}

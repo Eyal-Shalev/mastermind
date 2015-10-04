@@ -1,0 +1,3 @@
+<button ng-repeat="cell in turn track by $index" class="cell cell-color-{{cell.value.label.toLowerCase()}}" ng-disabled="disabled" ng-click="openPallet(cell)"></button>
+<button ng-if="!disabled" class="play" ng-click="game.guess()" ng-disabled="!turn.isValid">Play</button>
+<mm-results ng-if="disabled" ng-model="turn.results"></mm-results>

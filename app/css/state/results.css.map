@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;AAEA,WAAY,GACV,YAAY,EC0BZ,OAAO;;;ADvBT,eAAgB,GACd,YAAY,ECqBZ,OAAO",
+"sources": ["../../sass/state/results.scss","../../sass/abstracts/_variables.scss"],
+"names": [],
+"file": "results.css"
+}

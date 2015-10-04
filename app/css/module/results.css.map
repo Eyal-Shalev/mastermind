@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;AAAA,OAAQ,GACN,qBAAqB,EAAE,GAAG,EAC1B,kBAAkB,EAAE,GAAG,EACvB,aAAa,EAAE,GAAG;;;ACDpB,QAAS,GACP,QAAQ,EAAE,QAAQ;;;AAGpB,OAAQ,GACN,KAAK,EAAE,SAAyB,EAChC,MAAM,EAAE,SAAyB,EAEjC,MAAM,EAAE,eAAiC,EACzC,OAAO,EAAE,KAAK",
+"sources": ["../../sass/abstracts/_extendables.scss","../../sass/module/results.scss"],
+"names": [],
+"file": "results.css"
+}

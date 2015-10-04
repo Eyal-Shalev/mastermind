@@ -1,0 +1,66 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-yellow { border-color: #ffde17; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-red { border-color: #ed1c24; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-green { border-color: #00a651; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-blue { border-color: #00aeef; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-orange { border-color: #f7941e; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-purple { border-color: #92278f; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-indigo { border-color: #2e3192; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 4, ../../sass/state/pallet.scss */
+.option-color-pink { border-color: #ff6da2; }
+
+/* line 7, ../../sass/state/pallet.scss */
+.option[disabled] { border-color: white; cursor: not-allowed; }
+
+/* line 13, ../../sass/state/pallet.scss */
+.pallet { display: none; }
+
+/* line 17, ../../sass/state/pallet.scss */
+.pallet-is-visible { display: block; }
+
+/*# sourceMappingURL=pallet.css.map */

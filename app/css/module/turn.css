@@ -1,0 +1,18 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+/* line 3, ../../sass/module/turn.scss */
+.cell { border: none transparent 0px; cursor: pointer; }
+
+/* line 8, ../../sass/module/turn.scss */
+.play { border: white solid 0.915vw; background: black; color: white; cursor: pointer; }
+
+/*# sourceMappingURL=turn.css.map */
