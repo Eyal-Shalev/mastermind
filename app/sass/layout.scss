@@ -1,0 +1,84 @@
+@import "abstracts/_";
+
+.container {
+  width: calc(100% - (#{l-size(outer-horizontal)} * 2));
+  height: calc(100% - #{l-size(outer-vertical)});
+  margin: l-size(outer-vertical) l-size(outer-horizontal) auto;
+  position: relative;
+}
+
+.cell {
+  float: left;
+  width: l-size(cell);
+  height: l-size(cell);
+  &:not(:first-child) {
+    margin-left: l-size(inner-horizontal);
+  }
+}
+
+.play {
+  @extend %circle;
+  width: l-size(large-circle-size);
+  height: l-size(large-circle-size);
+  margin-top: calc((#{l-size(cell)} - #{l-size(large-circle-size)}) / 2);
+  margin-bottom: calc((#{l-size(cell)} - #{l-size(large-circle-size)}) / 2);
+  float: right;
+}
+
+.turn {
+  display: block;
+  height: l-size(cell);
+  &:not(:first-child) {
+    margin-top: l-size(inner-vertical);
+  }
+}
+
+.history {
+  margin-top: l-size(inner-vertical);
+}
+
+.pallet {
+  display: block;
+  width: l-size(large-circle-size);
+  height: calc(100vh - #{l-size(outer-vertical)});
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.option {
+  @extend %circle;
+  width: l-size(large-circle-size);
+  height: l-size(large-circle-size);
+  margin-top: calc((#{l-size(cell)} - #{l-size(large-circle-size)}) / 2);
+  margin-bottom: calc((#{l-size(cell)} - #{l-size(large-circle-size)}) / 2 + #{l-size(inner-vertical)});
+}
+
+.results {
+  width: l-size(large-circle-size);
+  height: l-size(large-circle-size);
+  float: right;
+  position: relative;
+}
+
+.result {
+  @extend %circle;
+  position: absolute;
+  &:nth-child(1) {
+    top:0;
+    left:0;
+  }
+  &:nth-child(2) {
+    top:0;
+    right:0;
+  }
+  &:nth-child(3) {
+    bottom:0;
+    left:0;
+  }
+  &:nth-child(4) {
+    bottom:0;
+    right:0;
+  }
+}
+

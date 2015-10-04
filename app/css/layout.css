@@ -1,0 +1,54 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+/* line 1, ../sass/abstracts/_extendables.scss */
+.play, .option, .result { -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+
+/* line 3, ../sass/layout.scss */
+.container { width: calc(100% - (5.83333vw * 2)); height: calc(100% - 11.66667vw); margin: 11.66667vw 5.83333vw auto; position: relative; }
+
+/* line 10, ../sass/layout.scss */
+.cell { float: left; width: 13.33333vw; height: 13.33333vw; }
+/* line 14, ../sass/layout.scss */
+.cell:not(:first-child) { margin-left: 3.88889vw; }
+
+/* line 19, ../sass/layout.scss */
+.play { width: 11.52778vw; height: 11.52778vw; margin-top: calc((13.33333vw - 11.52778vw) / 2); margin-bottom: calc((13.33333vw - 11.52778vw) / 2); float: right; }
+
+/* line 28, ../sass/layout.scss */
+.turn { display: block; height: 13.33333vw; }
+/* line 31, ../sass/layout.scss */
+.turn:not(:first-child) { margin-top: 5.27778vw; }
+
+/* line 36, ../sass/layout.scss */
+.history { margin-top: 5.27778vw; }
+
+/* line 40, ../sass/layout.scss */
+.pallet { display: block; width: 11.52778vw; height: calc(100vh - 11.66667vw); position: absolute; top: 0; right: 0; }
+
+/* line 49, ../sass/layout.scss */
+.option { width: 11.52778vw; height: 11.52778vw; margin-top: calc((13.33333vw - 11.52778vw) / 2); margin-bottom: calc((13.33333vw - 11.52778vw) / 2 + 5.27778vw); }
+
+/* line 57, ../sass/layout.scss */
+.results { width: 11.52778vw; height: 11.52778vw; float: right; position: relative; }
+
+/* line 64, ../sass/layout.scss */
+.result { position: absolute; }
+/* line 67, ../sass/layout.scss */
+.result:nth-child(1) { top: 0; left: 0; }
+/* line 71, ../sass/layout.scss */
+.result:nth-child(2) { top: 0; right: 0; }
+/* line 75, ../sass/layout.scss */
+.result:nth-child(3) { bottom: 0; left: 0; }
+/* line 79, ../sass/layout.scss */
+.result:nth-child(4) { bottom: 0; right: 0; }
+
+/*# sourceMappingURL=layout.css.map */

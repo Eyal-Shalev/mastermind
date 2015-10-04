@@ -1,0 +1,21 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+/* line 1, ../../sass/abstracts/_extendables.scss */
+.option { -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+
+/* line 3, ../../sass/module/pallet.scss */
+.pallet { background-color: black; }
+
+/* line 7, ../../sass/module/pallet.scss */
+.option { background-color: black; border-style: solid; border-width: 0.915vw; cursor: pointer; }
+
+/*# sourceMappingURL=pallet.css.map */

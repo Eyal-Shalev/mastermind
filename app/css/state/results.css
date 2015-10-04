@@ -1,0 +1,18 @@
+/**
+width: 360
+grid left margin: 21
+grid right margin: 35
+grid inner margin: 14
+grid item width/height: 48
+grid top margin: 42
+pallet right margin: 25
+row margin: 19
+
+*/
+/* line 3, ../../sass/state/results.scss */
+.result-hit { border-color: #ed1c24; }
+
+/* line 7, ../../sass/state/results.scss */
+.result-partial { border-color: #ffde17; }
+
+/*# sourceMappingURL=results.css.map */

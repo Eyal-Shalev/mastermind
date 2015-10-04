@@ -1,0 +1,66 @@
+<!doctype html>
+<html ng-app="mastermind">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Base -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- Layout -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- Module -->
+    <link rel="stylesheet" href="css/module/turn.css">
+    <link rel="stylesheet" href="css/module/pallet.css">
+    <link rel="stylesheet" href="css/module/results.css">
+    <!-- State -->
+    <link rel="stylesheet" href="css/state/turn.css">
+    <link rel="stylesheet" href="css/state/pallet.css">
+    <link rel="stylesheet" href="css/state/results.css">
+    <!-- Theme -->
+    <!--<link rel="stylesheet" href="css/base/base.css">-->
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+      your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div ng-view></div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      !function (A, n, g, u, l, a, r) {
+        A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+            (A[l].q = A[l].q || []).push(arguments)
+          }, A[l].l = +new Date, a = n.createElement(g),
+          r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+      }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- Vendors -->
+
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-animate/angular-animate.js"></script>
+    <script src="vendor/angular-aria/angular-aria.js"></script>
+    <script src="vendor/angular-route/angular-route.js"></script>
+    <script src="vendor/angular-touch/angular-touch.js"></script>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="controllers/mastermind.js"></script>
+    <script src="controllers/mastermind.engine.js"></script>
+    <script src="controllers/turn.js"></script>
+    <script src="controllers/pallet.js"></script>
+    <script src="controllers/results.js"></script>
+  </body>
+</html>

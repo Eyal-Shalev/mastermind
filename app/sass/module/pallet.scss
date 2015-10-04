@@ -1,0 +1,13 @@
+@import "abstracts/_";
+
+.pallet {
+  background-color: color(background);
+}
+
+.option {
+  background-color: color(background);
+  @extend %circle;
+  border-style: solid;
+  border-width: l-size(large-circle-border);
+  cursor: pointer;
+}
