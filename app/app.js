@@ -18,7 +18,7 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/game', {
-        templateUrl: '/templates/mastermind.html',
+        templateUrl: 'templates/mastermind.html',
         controller: 'GameCtrl'
       })
       .otherwise({
