@@ -9,9 +9,17 @@
   }
 }
 
+.cell-is-selected, .cell.ng-click-active {
+  background-image: url(../../assets/images/selected-black.svg);
+  background-size: cover;
+}
+
 .cell-color-select {
   border: solid 1px color(border);
   background-color: color(background);
+  &.cell-is-selected, &.ng-click-active {
+    background-image: url(../../assets/images/selected.svg);
+  }
 }
 
 .cell[disabled] {

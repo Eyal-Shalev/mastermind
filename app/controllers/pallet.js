@@ -14,13 +14,18 @@
         // scope: {}, // {} = isolate, true = child, false/undefined = no change
         controller: function ($scope, $element, $attrs, $transclude) {
           $scope.openPallet = function(cell) {
+            if (selectedCell) {
+              $scope.closePallet(selectedCell.value);
+            }
             selectedCell = cell;
+            selectedCell.pressed = true;
             cell.value.selected = false;
             $element.addClass('pallet-is-visible');
 
           };
           $scope.closePallet = function(option) {
             selectedCell.value = option;
+            selectedCell.pressed = false;
             option.selected = true;
             selectedCell = null;
             $element.removeClass('pallet-is-visible');

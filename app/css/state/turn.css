@@ -58,12 +58,17 @@ row margin: 19
 .option-color-pink { border-color: #ff6da2; }
 
 /* line 12, ../../sass/state/turn.scss */
-.cell-color-select { border: solid 1px white; background-color: black; }
+.cell-is-selected, .cell.ng-click-active { background-image: url(../../assets/images/selected-black.svg); background-size: cover; }
 
 /* line 17, ../../sass/state/turn.scss */
+.cell-color-select { border: solid 1px white; background-color: black; }
+/* line 20, ../../sass/state/turn.scss */
+.cell-color-select.cell-is-selected, .cell-color-select.ng-click-active { background-image: url(../../assets/images/selected.svg); }
+
+/* line 25, ../../sass/state/turn.scss */
 .cell[disabled] { cursor: not-allowed; }
 
-/* line 21, ../../sass/state/turn.scss */
+/* line 29, ../../sass/state/turn.scss */
 .play[disabled] { color: black; cursor: not-allowed; }
 
 /*# sourceMappingURL=turn.css.map */
