@@ -13,6 +13,12 @@ angular
     'ngAria',
     'ngRoute'
   ])
+  .value('meta', {
+    title: "Mastermind"
+  })
+  .controller('headCtrl', ['$scope', 'meta', function($scope, meta) {
+    $scope.meta = meta;
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/game', {

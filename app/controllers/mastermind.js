@@ -4,7 +4,7 @@
 
   angular.module('mastermind')
 
-    .controller('GameCtrl', ['$scope', 'gameFactory', function ($scope, gameFactory) {
+    .controller('GameCtrl', ['$scope', 'meta', 'gameFactory', function ($scope, meta, gameFactory) {
       var game =  new gameFactory({
         valueOptions: [
           {label: 'Indigo'},
@@ -24,7 +24,11 @@
         }
       });
 
-      $scope.game =game;
+      $scope.game = game;
+
+      $scope.$watch('game.tries', function(newVal) {
+        meta.title = "Mastermind | tries: " + newVal;
+      });
 
     }]);
 })(angular);
